@@ -13,6 +13,28 @@
     font-size: 1rem;
     padding: 10px 40px;
   }
+  .dropdown-menu4 {
+    width:50%;
+    left:51%;
+   
+  }
+  .dropdown-menu5{
+    top: 1px !important;
+    width:300%;
+    padding:.5rem;
+  }
+  .dropdown-menu6{
+    top: 3px !important;
+    width:300%;
+    padding:.5rem;
+    left:-50% !important;
+  }
+  .dropdown-menu7{
+    top: 3px !important;
+    width:300%;
+    padding:.5rem;
+    left:-100% !important;
+  }
 }
 
 @media screen and (max-width: 1019px) {
@@ -33,7 +55,6 @@
     width: 400px;
   }
 }
-
 @media screen and (max-width: 991px) {
   .business-wrapper {
     height: 100vh;
@@ -83,6 +104,10 @@
   }
   .button-fronts-group {
     margin-top: 50px;
+  }
+
+  .div-messages-info1{
+    display: none;
   }
   
 }
@@ -411,5 +436,12 @@
   .container-investo {
     max-width: 540px;
     padding: 0.5rem;
+  }
+}
+
+
+@media screen and (min-width:991px){
+  .div-messages-info2{
+    display: none;
   }
 }
