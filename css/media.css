@@ -140,6 +140,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  #profile-main{
+    height:500px;
+    padding-top: 5rem;
+  }
   .margin-left {
     margin-left: 60px;
   }
@@ -319,6 +323,12 @@
 }
 @media screen and (max-width: 556px) {
   /* login */
+  .prof-follower > h4{
+    font-size:1.2rem;
+  }
+  .profile-content h1{
+    font-size: 1.3rem;
+  }
   #login {
     padding-left: 15px;
     padding-right: 15px;
@@ -329,6 +339,16 @@
   .what-we-offer > .enterpre {
     font-size: 1.5rem;
   }
+  #profile-main{
+    height:500px;
+    padding-top: 3rem;
+  }
+  .profile-img {
+    width: 114px;
+    height: 114px;
+    margin-left: 1rem;
+    padding-right: .5rem;
+}
 }
 @media screen and (max-width: 450px) {
   .business-head {

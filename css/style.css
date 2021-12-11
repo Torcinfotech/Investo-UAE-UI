@@ -69,6 +69,18 @@ a:hover {
   text-decoration: none;
   background-color: #fff;
 }
+.dropdown-item:hover:nth-child(1)::before{
+  content: "// ";
+}
+.dropdown-item:hover:nth-child(2)::before{
+  content: "// ";
+}
+.dropdown-item:hover:nth-child(3)::before{
+  content: "// ";
+}
+.dropdown-item:hover:nth-child(4)::before{
+  content: "// ";
+}
 .div-messages-info2 {
   border-top: 1px solid var(--white);
   position: relative;
