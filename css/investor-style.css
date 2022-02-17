@@ -209,9 +209,18 @@ class and ui-labels class */
   margin-bottom: 10px;
 
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
   .pl-55{
-    padding-left: 0;
+    padding-left: 1rem;
+  } 
+}
+@media screen and (max-width: 991px) {
+  /* .pl-55{
+    padding-left: 50px;
+  } */
+  .demo-width {
+    padding-top: 2rem;
+    padding-right: .5rem;
   }
   .text-s{
     font-size: 1.5rem !important;
@@ -222,14 +231,35 @@ class and ui-labels class */
   .size-hr{
     font-size: 1.9rem;
   }
+  .img1-height {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 1px solid #ca913d;
+    
+  }
+  .profile-container{
+    padding:1.8rem;
+    width:98%;
+  }
 }
+
 @media screen and (max-width: 765px) {
   .bottom {
     bottom: -44px;
+    background-color:rgb(49, 46, 45);
+    width: 100%;
+    left:0;
+    padding:1rem 0;
+    padding-left:1.8rem;
+
   }
   .h2sub2 {
     text-align: center;
     padding-top: 2rem;
+  }
+  .pl-55{
+    padding-left:1rem;
   }
   .border-right {
     margin-top: 5rem;
@@ -253,8 +283,17 @@ class and ui-labels class */
   .demo-width{
     padding-top: 2rem;
   }
+  .profile-data > p{
+    margin-bottom:0;
+  }
+  .profile-container{
+    padding:2.5rem;
+    width:90%;
+    margin-bottom:20px;
+  }
+
   
-}
+
 .price-t{
   font-size: 1.5rem;
   color:#e29a2d;
@@ -264,7 +303,28 @@ class and ui-labels class */
 .small-pri{
   font-size: 1rem;
 }
+}
+@media screen and (max-width: 455px) {
+  .profile-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  .demo-width{
+   padding: 0
+  }
+  .profile-data{
+    padding: 0;
+    margin-top: 10px;
+  }
+  .my-investment{
+    margin-left: 10px;
+  }
+
+}
 @media screen and (max-width: 383px) {
+
   .family {
     font-size: 0.8rem;
   }
