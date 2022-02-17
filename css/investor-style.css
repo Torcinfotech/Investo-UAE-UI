@@ -58,7 +58,7 @@
 }
 .bottom {
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -201,7 +201,7 @@ class and ui-labels class */
   flex-direction: column;
 }
 .pl-55{
-  padding-left: 3.5rem;
+  padding-left: 0rem;
 }
 .invest-stat > img {
   height: 52px;
@@ -209,6 +209,16 @@ class and ui-labels class */
   margin-bottom: 10px;
 
 }
+.border-rights {
+  border-right: 1px solid #dee2e6;
+}
+.text-s{
+  font-size: 1rem;
+}
+.text-ss{
+  font-size:1.5rem;
+}
+
 @media screen and (max-width: 1200px) {
   .pl-55{
     padding-left: 1rem;
@@ -261,7 +271,7 @@ class and ui-labels class */
   .pl-55{
     padding-left:1rem;
   }
-  .border-right {
+  .padding-con {
     margin-top: 5rem;
   }
   .button-alin {
@@ -290,6 +300,9 @@ class and ui-labels class */
     padding:2.5rem;
     width:90%;
     margin-bottom:20px;
+  }
+  .border-rights{
+    border: none;
   }
 
   
