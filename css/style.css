@@ -270,6 +270,12 @@ a:hover {
   background-color: #000;
  
 }
+  .carsoual-div{
+    position: absolute;
+    top: -106px;
+    width: 100%;
+    z-index:-1; 
+  }
 #headers{
   position:sticky;
   top:0;
