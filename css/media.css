@@ -56,6 +56,10 @@
   }
 }
 @media screen and (max-width: 991px) {
+  #headers {
+    background-color: #000;
+   
+  }
   .business-wrapper {
     height: 100vh;
   }
@@ -116,6 +120,12 @@
   }
   .mt-176{
     margin-top: 530px;
+  }
+  .carsoual-div{
+    position: absolute;
+    top: -154px;
+    width: 100%;
+    z-index:-1; 
   }
   
 }
@@ -400,7 +410,7 @@
   .item >h1 {
     font-size:1.2rem;
   }
-  .item{
+  .header-slider{
     height: 150px;
   }
   .button-invsto-front1 {
@@ -417,7 +427,13 @@
   .carousel-caption {
     width: 100%;
     left: 5%;
-    top:50%;
+    top:38%;
+  }
+  .button-invsto-front1{ 
+    bottom:70px;
+    font-size: .6rem;
+    font-weight: bold;
+    right:20px;
   }
 
   .investo-join {
@@ -438,6 +454,9 @@
   }
   .comments > a {
     font-size: 0.6rem;
+  }
+  .contact-infor >a {
+    font-size: 0.8rem;
   }
 }
 

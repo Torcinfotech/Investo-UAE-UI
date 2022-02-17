@@ -24,6 +24,9 @@ a {
 a:hover {
   text-decoration: none;
 }
+.bg-darks{
+  background-color: #000;
+}
 /* loader */
 
 #preLoader {
@@ -151,6 +154,7 @@ a:hover {
 }
 .div-messages-info2 > .message-box:hover {
   border: 1px solid var(--white);
+  background-color: #000;
 }
 .badge-finder {
   background-color: transparent;
@@ -203,13 +207,8 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 } */
 .collapse.show{
-  background-color:#111;
-  width: 100%;
-  padding: 2rem;
-  position: absolute;
-  top: 100%;
-  left:0;
- 
+  background-color:#000;
+  padding-bottom: .5rem;
 }
 .collapse {
   transition:.5s ease-in-out;
@@ -222,7 +221,7 @@ a:hover {
   background-color: var(--white);
   margin-left: 10px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   position: absolute;
   bottom: 100px;
   right: 50px;
@@ -268,19 +267,21 @@ a:hover {
 
 /* header section */
 #header {
-  background-color: transparent;
+  background-color: #000;
+ 
+}
+#headers{
+  position:sticky;
+  top:0;
+  z-index: 999999;
 }
 #sliderss{
   position: relative;
+
  
 }
-.carsoual-div{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index:-1; 
-}
-.item{
+
+.header-slider{
   height: 300px;
 }
 .mt-176{
