@@ -24,7 +24,7 @@ a {
 a:hover {
   text-decoration: none;
 }
-.bg-darks{
+.bg-darks {
   background-color: #000;
 }
 /* loader */
@@ -206,12 +206,12 @@ a:hover {
 /* .overlay {
   background-color: rgba(0, 0, 0, 0.3);
 } */
-.collapse.show{
-  background-color:#000;
-  padding-bottom: .5rem;
+.collapse.show {
+  background-color: #000;
+  padding-bottom: 0.5rem;
 }
 .collapse {
-  transition:.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .button-invsto-front1 {
   padding: 15px 30px;
@@ -268,29 +268,26 @@ a:hover {
 /* header section */
 #header {
   background-color: #000;
- 
 }
-  .carsoual-div{
-    position: absolute;
-    top: -106px;
-    width: 100%;
-    z-index:-1; 
-  }
-#headers{
-  position:sticky;
-  top:0;
+.carsoual-div {
+  position: absolute;
+  top: -106px;
+  width: 100%;
+  z-index: -1;
+}
+#headers {
+  position: sticky;
+  top: 0;
   z-index: 999999;
 }
-#sliderss{
+#sliderss {
   position: relative;
-
- 
 }
 
-.header-slider{
+.header-slider {
   height: 300px;
 }
-.mt-176{
+.mt-176 {
   margin-top: 594px;
 }
 /* .hg-100{
@@ -407,7 +404,6 @@ a:hover {
 }
 .invento-prop {
   padding: 0.5rem;
-  
 }
 /* .invento-prop:hover>.investo-border1{
   display: none;
