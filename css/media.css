@@ -376,6 +376,11 @@
 }
 }
 @media screen and (max-width: 450px) {
+  .card-invest > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
   .business-head {
     font-size: 3rem;
   }

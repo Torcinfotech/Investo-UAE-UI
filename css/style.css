@@ -201,7 +201,7 @@ a:hover {
 .carousel-caption > h1 {
   font-size: 6rem;
   font-weight: 600;
-  text-shadow: 5px 5px 10px #000;
+  /* text-shadow: 5px 5px 10px #000; */
 }
 /* .overlay {
   background-color: rgba(0, 0, 0, 0.3);
