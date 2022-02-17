@@ -60,6 +60,13 @@
     background-color: #000;
    
   }
+  .navbar-brand{
+    margin-left: 0;
+  }
+  .login-btn {
+    margin-right:0;
+    text-align:center;
+  }
   .business-wrapper {
     height: 100vh;
   }

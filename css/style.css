@@ -178,6 +178,7 @@ a:hover {
   margin-left: 10px;
   font-weight: 600;
   font-size: 14px;
+  margin-right: 10px;
 }
 .login-btns {
   width: 100%;
@@ -185,12 +186,14 @@ a:hover {
   color: var(--white);
   border-radius: 32px;
   background-color: var(--background1-color);
-  margin-left: 10px;
   font-weight: 600;
   font-size: 14px;
 }
 .login-btn:hover {
   color: var(--black);
+}
+.invento-prop > p{
+  line-height: 1.1;
 }
 .carousel-caption {
   width: 50%;
@@ -396,10 +399,11 @@ a:hover {
   flex-direction: column;
   position: relative;
   align-items: center;
+  height:300px ;
 }
 .card-invest > img {
-  width: 135px;
-  height: 135px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 .invento-prop {
@@ -634,13 +638,22 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .investocroud {
-  width: 30%;
+  width: 50%;
   text-align: left;
   display: flex;
+}
+.line-height{
+  line-height: 1;
+  font-weight: 600;
+  font-size: .9rem;
 }
 .investocroud > a {
   pointer-events: none;
   color: #eb0c52;
+}
+.amt{
+  font-size: .8rem;
+  padding-top: .5rem;
 }
 
 .investo-body > ul {
@@ -662,23 +675,29 @@ a:hover {
   background-position: center;
   background-size: cover;
 }
-
+.navbar-brand{
+  margin-left: 20px;
+}
 .countBox {
   height: 300px;
 }
-
+.countBox > p {
+  margin-bottom: 0;
+}
 .values {
   color: var(--background1-color);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 0;
 }
 .values ::after {
   content: "+";
 }
 .values1 {
   color: var(--background1-color);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 0;
 }
 .values1 ::after {
   content: "%";
@@ -794,8 +813,9 @@ a:hover {
 .sliders {
   position: absolute;
   top: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/banner/banner1.jpg");
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/banner/banner1.jpg"); */
+  background-color:#293447;
 }
 .footer-icons > li {
   margin-left: 10px;
