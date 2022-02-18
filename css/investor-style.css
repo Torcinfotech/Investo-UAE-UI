@@ -59,8 +59,10 @@
 .bottom {
   position: absolute;
   bottom: 10%;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .bottom:hover {
   text-decoration: none;
@@ -213,31 +215,30 @@ class and ui-labels class */
   border-right: 1px solid #dee2e6;
 }
 .text-s{
-  font-size: 1rem;
+  font-size: .9rem;
 }
 .text-ss{
   font-size:1.5rem;
 }
 
-@media screen and (max-width: 1200px) {
-  .pl-55{
-    padding-left: 1rem;
-  } 
+@media screen and (max-width: 1276px) {
+  .new-inv{
+    padding-left:1.5rem;
+  }
 }
+
 @media screen and (max-width: 991px) {
   /* .pl-55{
     padding-left: 50px;
   } */
+  .new-inv{
+    padding-left:0;
+  }
   .demo-width {
     padding-top: 2rem;
     padding-right: .5rem;
   }
-  .text-s{
-    font-size: 1.5rem !important;
-  }
-  .text-s:not(:nth-child(1)){
-    font-size: 1.2rem !important;
-  }
+ 
   .size-hr{
     font-size: 1.9rem;
   }
@@ -261,7 +262,8 @@ class and ui-labels class */
     width: 100%;
     left:0;
     padding:1rem 0;
-    padding-left:1.8rem;
+    padding-left: 1rem;
+    
 
   }
   .h2sub2 {
