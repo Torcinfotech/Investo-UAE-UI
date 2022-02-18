@@ -194,13 +194,22 @@ a:hover {
 }
 .invento-prop > p{
   line-height: 1.1;
-  height: 88px;
+  height:0;
   overflow: hidden;
-  transition:0.5s;
+  transition:0.8s;
 }
-.invento-prop:hover > p{
-  line-height: 1.1;
-  height: 140px;
+
+.card-invest:hover >.invento-prop > .p1{
+  height: 90px;
+}
+.card-invest:hover >.invento-prop > .p2{
+  height: 144px;
+}
+.card-invest:hover >.invento-prop > .p3{
+  height: 125px;
+}
+.card-invest:hover >.invento-prop > .p4{
+  height: 90px;
 }
 .carousel-caption {
   width: 50%;
