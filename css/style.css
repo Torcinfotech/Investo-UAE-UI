@@ -103,7 +103,8 @@ a:hover {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.dropdown-menu1 {
+/* with button login */
+/* .dropdown-menu1 {
   left: 49%;
 }
 .dropdown-menu2 {
@@ -111,6 +112,16 @@ a:hover {
 }
 .dropdown-menu3 {
   left: 60.5%;
+} */
+
+.dropdown-menu1 {
+  left: 59%;
+}
+.dropdown-menu2 {
+  left: 65%;
+}
+.dropdown-menu3 {
+  left: 70%;
 }
 .dropdown-menu4 {
   width: 42%;
