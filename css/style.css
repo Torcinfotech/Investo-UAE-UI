@@ -104,13 +104,13 @@ a:hover {
   border-top-right-radius: 0;
 }
 .dropdown-menu1 {
-  left: 50.5%;
+  left: 49%;
 }
 .dropdown-menu2 {
-  left: 56.5%;
+  left: 55%;
 }
 .dropdown-menu3 {
-  left: 62%;
+  left: 60.5%;
 }
 .dropdown-menu4 {
   width: 42%;
@@ -228,6 +228,7 @@ a:hover {
 .collapse.show {
   background-color: #000;
   padding-bottom: 0.5rem;
+  color:#fff;
 }
 .collapse {
   transition: 0.5s ease-in-out;
