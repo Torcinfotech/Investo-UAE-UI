@@ -190,6 +190,7 @@ a:hover {
   font-weight: 600;
   font-size: 14px;
   margin-right: 10px;
+ 
 }
 .login-btns {
   width: 100%;
@@ -256,6 +257,8 @@ a:hover {
   position: absolute;
   bottom: 100px;
   right: 50px;
+  z-index: 99999;
+  cursor: pointer;
 }
 .button-invsto-front2 {
   padding: 15px 30px;
@@ -304,7 +307,7 @@ a:hover {
   position: absolute;
   top: -106px;
   width: 100%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 #headers {
   position: sticky;
